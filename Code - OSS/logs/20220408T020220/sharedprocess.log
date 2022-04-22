@@ -1,0 +1,31 @@
+[2022-04-08 02:02:23.064] [sharedprocess] [info] Deleted from disk akamud.vscode-theme-onedark /home/dark/.vscode-oss/extensions/akamud.vscode-theme-onedark-2.2.3
+[2022-04-08 02:02:23.065] [sharedprocess] [info] Starting worker process with pid 76151 (type: fileWatcher, window: 1).
+[2022-04-08 02:05:15.206] [sharedprocess] [info] Worker process with pid 76151 terminated normally (type: fileWatcher, window: 1).
+[2022-04-08 02:05:16.421] [sharedprocess] [info] Starting worker process with pid 76681 (type: fileWatcher, window: 1).
+[2022-04-08 02:05:30.612] [sharedprocess] [info] Worker process with pid 76681 terminated normally (type: fileWatcher, window: 1).
+[2022-04-08 02:05:31.164] [sharedprocess] [info] Starting worker process with pid 76764 (type: fileWatcher, window: 1).
+[2022-04-08 02:09:35.268] [sharedprocess] [info] Getting Manifest... enkia.tokyo-night
+[2022-04-08 02:09:35.458] [sharedprocess] [info] Installing extension: enkia.tokyo-night
+[2022-04-08 02:09:42.403] [sharedprocess] [info] Downloaded extension: enkia.tokyo-night /home/dark/.config/Code - OSS/CachedExtensionVSIXs/enkia.tokyo-night-0.8.4
+[2022-04-08 02:09:42.452] [sharedprocess] [info] Extracted extension to /home/dark/.vscode-oss/extensions/.0b774563-38dc-443e-8a36-7b2ddfc5dd66: enkia.tokyo-night
+[2022-04-08 02:09:42.458] [sharedprocess] [info] Renamed to /home/dark/.vscode-oss/extensions/enkia.tokyo-night-0.8.4
+[2022-04-08 02:09:42.459] [sharedprocess] [info] Extracting completed. enkia.tokyo-night
+[2022-04-08 02:09:42.460] [sharedprocess] [info] Extension installed successfully: enkia.tokyo-night
+[2022-04-08 02:17:24.939] [sharedprocess] [info] Getting Manifest... magicstack.magicpython
+[2022-04-08 02:17:25.238] [sharedprocess] [info] Installing extension: magicstack.magicpython
+[2022-04-08 02:17:28.629] [sharedprocess] [info] Downloaded extension: magicstack.magicpython /home/dark/.config/Code - OSS/CachedExtensionVSIXs/magicstack.magicpython-1.1.1
+[2022-04-08 02:17:28.862] [sharedprocess] [info] Extracted extension to /home/dark/.vscode-oss/extensions/.c5ddee72-4df2-4c84-832c-2a9a357eb44b: magicstack.magicpython
+[2022-04-08 02:17:28.871] [sharedprocess] [info] Renamed to /home/dark/.vscode-oss/extensions/magicstack.magicpython-1.1.1
+[2022-04-08 02:17:28.872] [sharedprocess] [info] Extracting completed. magicstack.magicpython
+[2022-04-08 02:17:28.872] [sharedprocess] [info] Extension installed successfully: magicstack.magicpython
+[2022-04-08 02:19:23.809] [sharedprocess] [info] Uninstalling extension: magicstack.magicpython
+[2022-04-08 02:19:23.965] [sharedprocess] [info] Detected extension removed from another source magicstack.magicpython
+[2022-04-08 02:19:24.422] [sharedprocess] [info] Successfully uninstalled extension: magicstack.magicpython
+[2022-04-08 02:19:37.649] [sharedprocess] [info] Getting Manifest... magicstack.magicpython
+[2022-04-08 02:19:37.942] [sharedprocess] [info] Installing extension: magicstack.magicpython
+[2022-04-08 02:19:38.093] [sharedprocess] [info] Downloaded extension: magicstack.magicpython /home/dark/.config/Code - OSS/CachedExtensionVSIXs/magicstack.magicpython-1.1.1
+[2022-04-08 02:19:38.115] [sharedprocess] [info] Removed the extension from uninstalled list: magicstack.magicpython
+[2022-04-08 02:19:38.120] [sharedprocess] [info] Extension installed successfully: magicstack.magicpython
+[2022-04-08 02:20:02.139] [sharedprocess] [info] Uninstalling extension: esbenp.prettier-vscode
+[2022-04-08 02:20:02.301] [sharedprocess] [info] Detected extension removed from another source esbenp.prettier-vscode
+[2022-04-08 02:20:03.339] [sharedprocess] [info] Successfully uninstalled extension: esbenp.prettier-vscode

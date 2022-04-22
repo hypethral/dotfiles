@@ -1,0 +1,42 @@
+[2022-03-28 21:25:09.488] [exthost] [info] Extension host with pid 8565 started
+[2022-03-28 21:25:09.530] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-28 21:25:09.532] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-28 21:25:09.533] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-03-28 21:25:09.542] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-28 21:25:09.555] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-28 21:25:09.573] [exthost] [info] Eager extensions activated
+[2022-03-28 21:25:09.581] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-28 21:25:09.585] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-28 21:27:09.786] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-28 21:27:11.986] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-03-28 21:27:11.988] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-03-28 21:27:11.998] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-03-28 21:28:54.303] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-28 21:31:35.256] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-28 21:32:59.314] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onWalkthrough:pythonWelcome'
+[2022-03-28 21:34:40.898] [exthost] [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: false, activationEvent: '*'
+[2022-03-28 21:34:40.930] [exthost] [info] ExtensionService#_doActivateExtension iocave.customize-ui, startup: false, activationEvent: '*'
+[2022-03-28 21:36:40.695] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-03-28 21:36:40.703] [exthost] [info] Extension host with pid 8565 exiting with code 0
+[2022-03-28 21:36:42.494] [exthost] [info] Extension host with pid 11495 started
+[2022-03-28 21:36:42.495] [exthost] [info] Skipping acquiring lock for /home/dark/.config/Code - OSS/User/workspaceStorage/465451d6a6ae109f1f1b17f6363e87f1.
+[2022-03-28 21:36:42.530] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-28 21:36:42.533] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-28 21:36:42.534] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-03-28 21:36:42.545] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-28 21:36:42.550] [exthost] [info] Eager extensions activated
+[2022-03-28 21:36:42.552] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-28 21:36:42.555] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-28 21:36:42.556] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-28 21:36:42.575] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-28 21:36:42.581] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-28 21:36:47.256] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-03-28 21:36:47.270] [exthost] [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: false, activationEvent: '*', root cause: iocave.customize-ui
+[2022-03-28 21:36:47.301] [exthost] [info] ExtensionService#_doActivateExtension iocave.customize-ui, startup: false, activationEvent: '*'
+[2022-03-28 21:36:56.420] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-03-28 21:36:56.517] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-03-28 21:44:28.900] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-03-28 21:44:28.902] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-03-28 21:44:28.917] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-03-28 21:58:13.165] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-03-28 21:58:13.175] [exthost] [info] Extension host with pid 11495 exiting with code 0

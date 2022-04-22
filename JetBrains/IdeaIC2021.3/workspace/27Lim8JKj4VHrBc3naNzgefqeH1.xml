@@ -1,0 +1,162 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="Java Projects" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1" />
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="JAVA">
+      <summary usageCount="7" lastUsed="1649107117031" />
+    </fileType>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/com/dark/Main.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17823094" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Bookmarks" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Pull Requests" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.33014113" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.23135081" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Services" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.33014113" />
+      <window_info anchor="right" id="Key Promoter X" order="0" />
+      <window_info anchor="right" id="Layout Validation" order="1" />
+    </layout>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+      <value>Find</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="441" y="104" width="1028" height="845" key="#Project_Structure" timestamp="1649106695775">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="441" y="104" width="1028" height="845" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1649106695775" />
+    <state x="680" y="257" width="768" height="517" key="FileChooserDialogImpl" timestamp="1649106145368">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="680" y="257" width="768" height="517" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1649106145368" />
+    <state width="1863" height="201" key="GridCell.Tab.0.bottom" timestamp="1649107106889">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1863" height="201" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1649107106889" />
+    <state width="1863" height="201" key="GridCell.Tab.0.center" timestamp="1649107106888">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1863" height="201" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1649107106888" />
+    <state width="1863" height="201" key="GridCell.Tab.0.left" timestamp="1649107106887">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1863" height="201" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1649107106887" />
+    <state width="1863" height="201" key="GridCell.Tab.0.right" timestamp="1649107106888">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1863" height="201" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1649107106888" />
+    <state x="824" y="101" width="1028" height="845" key="SettingsEditor" timestamp="1649107094944">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="824" y="101" width="1028" height="845" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1649107094944" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/dark/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam/src/exam/Gate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airport Assignment/src/AirTrafficController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#1931#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Retail System/src/retail/system/RetailSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>untitled104</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
+  </component>
+</project>

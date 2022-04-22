@@ -1,0 +1,18 @@
+# BEGIN_KITTY_THEME
+# Bright Lights
+include current-theme.conf
+# END_KITTY_THEME
+# background #121111
+#foreground #a4a1a1
+#cursor #a4a1a1
+#selection_background #494542
+#selection_foreground #090200
+
+font_family      Hack Regular
+bold_font        Hack Bold
+italic_font      Hack
+bold_italic_font Hack Bold Italic
+
+
+font_size 12.0
+

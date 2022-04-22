@@ -1,0 +1,18 @@
+[2022-04-08 01:32:49.643] [sharedprocess] [info] Deleted from disk pkief.material-icon-theme /home/dark/.vscode-oss/extensions/pkief.material-icon-theme-4.14.1
+[2022-04-08 01:32:49.705] [sharedprocess] [info] Starting worker process with pid 68540 (type: fileWatcher, window: 1).
+[2022-04-08 01:32:49.722] [sharedprocess] [info] Deleted from disk ms-toolsai.jupyter /home/dark/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000752054
+[2022-04-08 01:37:54.213] [sharedprocess] [info] Worker process with pid 68540 terminated normally (type: fileWatcher, window: 1).
+[2022-04-08 01:37:55.426] [sharedprocess] [info] Starting worker process with pid 69892 (type: fileWatcher, window: 1).
+[2022-04-08 01:50:46.063] [sharedprocess] [info] Uninstalling extension: zhuangtongfa.material-theme
+[2022-04-08 01:50:46.209] [sharedprocess] [info] Detected extension removed from another source zhuangtongfa.material-theme
+[2022-04-08 01:50:47.485] [sharedprocess] [info] Successfully uninstalled extension: zhuangtongfa.material-theme
+[2022-04-08 01:50:47.566] [sharedprocess] [info] Worker process with pid 69892 terminated normally (type: fileWatcher, window: 1).
+[2022-04-08 01:50:48.880] [sharedprocess] [info] Starting worker process with pid 73682 (type: fileWatcher, window: 1).
+[2022-04-08 01:51:01.870] [sharedprocess] [info] Uninstalling extension: akamud.vscode-theme-onedark
+[2022-04-08 01:51:02.003] [sharedprocess] [info] Detected extension removed from another source akamud.vscode-theme-onedark
+[2022-04-08 01:51:03.043] [sharedprocess] [info] Successfully uninstalled extension: akamud.vscode-theme-onedark
+[2022-04-08 01:51:16.998] [sharedprocess] [info] Getting Manifest... zhuangtongfa.material-theme
+[2022-04-08 01:51:17.503] [sharedprocess] [info] Installing extension: zhuangtongfa.material-theme
+[2022-04-08 01:51:17.667] [sharedprocess] [info] Downloaded extension: zhuangtongfa.material-theme /home/dark/.config/Code - OSS/CachedExtensionVSIXs/zhuangtongfa.material-theme-3.13.20
+[2022-04-08 01:51:17.702] [sharedprocess] [info] Removed the extension from uninstalled list: zhuangtongfa.material-theme
+[2022-04-08 01:51:17.708] [sharedprocess] [info] Extension installed successfully: zhuangtongfa.material-theme

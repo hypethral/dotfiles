@@ -1,0 +1,5 @@
+[2022-04-05 02:42:50.672] [sharedprocess] [info] Starting worker process with pid 44219 (type: fileWatcher, window: 1).
+[2022-04-05 02:42:54.214] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter
+[2022-04-05 02:42:54.216] [sharedprocess] [info] Getting Manifest... pkief.material-icon-theme
+[2022-04-05 02:42:56.227] [sharedprocess] [info] Installing extension: pkief.material-icon-theme
+[2022-04-05 02:42:56.639] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter

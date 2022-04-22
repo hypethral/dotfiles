@@ -1,0 +1,17 @@
+[2022-04-05 02:42:50.572] [exthost] [info] Extension host with pid 44160 started
+[2022-04-05 02:42:50.572] [exthost] [info] Skipping acquiring lock for /home/dark/.config/Code - OSS/User/workspaceStorage/7a9771cfd27cb22d430314c84c274c25.
+[2022-04-05 02:42:50.632] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-04-05 02:42:50.875] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-04-05 02:42:51.258] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-05 02:42:51.262] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-05 02:42:51.266] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-05 02:42:51.285] [exthost] [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: true, activationEvent: '*'
+[2022-04-05 02:42:51.339] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-05 02:42:51.406] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-05 02:42:51.607] [exthost] [info] Eager extensions activated
+[2022-04-05 02:42:51.626] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 02:42:51.642] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 02:42:51.646] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 02:42:51.664] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 02:43:08.273] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-05 02:43:08.280] [exthost] [info] Extension host with pid 44160 exiting with code 0

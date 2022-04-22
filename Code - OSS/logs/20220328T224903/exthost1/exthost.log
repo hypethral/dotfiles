@@ -1,0 +1,17 @@
+[2022-03-28 22:49:05.230] [exthost] [info] Extension host with pid 39163 started
+[2022-03-28 22:49:05.230] [exthost] [info] Skipping acquiring lock for /home/dark/.config/Code - OSS/User/workspaceStorage/7a9771cfd27cb22d430314c84c274c25.
+[2022-03-28 22:49:05.277] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-03-28 22:49:05.351] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-03-28 22:49:05.490] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-28 22:49:05.492] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-28 22:49:05.493] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-03-28 22:49:05.496] [exthost] [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: true, activationEvent: '*'
+[2022-03-28 22:49:05.609] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-28 22:49:05.623] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-28 22:49:05.840] [exthost] [info] Eager extensions activated
+[2022-03-28 22:49:05.868] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-28 22:49:05.874] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-28 22:49:05.876] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-28 22:49:05.883] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-28 23:37:26.309] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-03-28 23:37:26.318] [exthost] [info] Extension host with pid 39163 exiting with code 0

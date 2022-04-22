@@ -1,0 +1,57 @@
+[2022-04-08 01:08:03.791] [sharedprocess] [info] Starting worker process with pid 56298 (type: fileWatcher, window: 1).
+[2022-04-08 01:08:07.885] [sharedprocess] [info] Getting Manifest... ms-vscode.js-debug-companion
+[2022-04-08 01:08:07.886] [sharedprocess] [info] Getting Manifest... ms-vscode.references-view
+[2022-04-08 01:08:07.887] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter
+[2022-04-08 01:08:07.887] [sharedprocess] [info] Getting Manifest... pkief.material-icon-theme
+[2022-04-08 01:08:09.957] [sharedprocess] [info] Installing extension: pkief.material-icon-theme
+[2022-04-08 01:08:09.964] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2022-04-08 01:08:10.200] [sharedprocess] [info] Installing extension: ms-vscode.js-debug-companion
+[2022-04-08 01:08:10.201] [sharedprocess] [info] Installing extension: ms-vscode.references-view
+[2022-04-08 01:08:12.112] [sharedprocess] [info] Downloaded extension: ms-vscode.js-debug-companion /home/dark/.config/Code - OSS/CachedExtensionVSIXs/ms-vscode.js-debug-companion-1.0.17
+[2022-04-08 01:08:12.119] [sharedprocess] [info] Downloaded extension: pkief.material-icon-theme /home/dark/.config/Code - OSS/CachedExtensionVSIXs/pkief.material-icon-theme-4.15.0
+[2022-04-08 01:08:12.157] [sharedprocess] [info] Extracted extension to /home/dark/.vscode-oss/extensions/.68740ef9-0092-4112-b5fd-3f6d914f2423: ms-vscode.js-debug-companion
+[2022-04-08 01:08:12.163] [sharedprocess] [info] Renamed to /home/dark/.vscode-oss/extensions/ms-vscode.js-debug-companion-1.0.17
+[2022-04-08 01:08:12.164] [sharedprocess] [info] Extracting completed. ms-vscode.js-debug-companion
+[2022-04-08 01:08:12.169] [sharedprocess] [info] Extension installed successfully: ms-vscode.js-debug-companion
+[2022-04-08 01:08:12.299] [sharedprocess] [info] Downloaded extension: ms-vscode.references-view /home/dark/.config/Code - OSS/CachedExtensionVSIXs/ms-vscode.references-view-0.0.89
+[2022-04-08 01:08:12.312] [sharedprocess] [info] Extracted extension to /home/dark/.vscode-oss/extensions/.5827f339-3e8d-4481-871b-96809f9b7902: ms-vscode.references-view
+[2022-04-08 01:08:12.319] [sharedprocess] [info] Renamed to /home/dark/.vscode-oss/extensions/ms-vscode.references-view-0.0.89
+[2022-04-08 01:08:12.320] [sharedprocess] [info] Extracting completed. ms-vscode.references-view
+[2022-04-08 01:08:12.325] [sharedprocess] [info] Extension installed successfully: ms-vscode.references-view
+[2022-04-08 01:08:12.712] [sharedprocess] [info] Extracted extension to /home/dark/.vscode-oss/extensions/.35f997ce-bf51-4067-a71f-c887c717e72b: pkief.material-icon-theme
+[2022-04-08 01:08:12.722] [sharedprocess] [info] Renamed to /home/dark/.vscode-oss/extensions/pkief.material-icon-theme-4.15.0
+[2022-04-08 01:08:12.723] [sharedprocess] [info] Extracting completed. pkief.material-icon-theme
+[2022-04-08 01:08:12.732] [sharedprocess] [info] Extension installed successfully: pkief.material-icon-theme
+[2022-04-08 01:09:34.563] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/dark/.config/Code - OSS/CachedExtensionVSIXs/ms-toolsai.jupyter-2022.3.1000901801
+[2022-04-08 01:09:34.972] [sharedprocess] [info] Extracted extension to /home/dark/.vscode-oss/extensions/.baa8d299-00a4-4d64-9477-0e049ccf14b1: ms-toolsai.jupyter
+[2022-04-08 01:09:34.987] [sharedprocess] [info] Renamed to /home/dark/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000901801
+[2022-04-08 01:09:34.996] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2022-04-08 01:09:35.004] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter
+[2022-04-08 01:17:16.683] [sharedprocess] [info] Getting Manifest... akamud.vscode-theme-onedark
+[2022-04-08 01:17:16.960] [sharedprocess] [info] Installing extension: akamud.vscode-theme-onedark
+[2022-04-08 01:17:18.070] [sharedprocess] [info] Downloaded extension: akamud.vscode-theme-onedark /home/dark/.config/Code - OSS/CachedExtensionVSIXs/akamud.vscode-theme-onedark-2.2.3
+[2022-04-08 01:17:18.088] [sharedprocess] [info] Extracted extension to /home/dark/.vscode-oss/extensions/.193894e0-bd91-423d-919b-3f1a1ab1e114: akamud.vscode-theme-onedark
+[2022-04-08 01:17:18.097] [sharedprocess] [info] Renamed to /home/dark/.vscode-oss/extensions/akamud.vscode-theme-onedark-2.2.3
+[2022-04-08 01:17:18.109] [sharedprocess] [info] Extracting completed. akamud.vscode-theme-onedark
+[2022-04-08 01:17:18.110] [sharedprocess] [info] Extension installed successfully: akamud.vscode-theme-onedark
+[2022-04-08 01:17:26.447] [sharedprocess] [info] Getting Manifest... gulajavaministudio.mayukaithemevsc
+[2022-04-08 01:17:26.640] [sharedprocess] [info] Installing extension: gulajavaministudio.mayukaithemevsc
+[2022-04-08 01:17:38.981] [sharedprocess] [info] Downloaded extension: gulajavaministudio.mayukaithemevsc /home/dark/.config/Code - OSS/CachedExtensionVSIXs/gulajavaministudio.mayukaithemevsc-3.2.0
+[2022-04-08 01:17:39.105] [sharedprocess] [info] Extracted extension to /home/dark/.vscode-oss/extensions/.8a3df4ad-4d57-4240-88fc-b83bbfbd7edd: gulajavaministudio.mayukaithemevsc
+[2022-04-08 01:17:39.112] [sharedprocess] [info] Renamed to /home/dark/.vscode-oss/extensions/gulajavaministudio.mayukaithemevsc-3.2.0
+[2022-04-08 01:17:39.113] [sharedprocess] [info] Extracting completed. gulajavaministudio.mayukaithemevsc
+[2022-04-08 01:17:39.114] [sharedprocess] [info] Extension installed successfully: gulajavaministudio.mayukaithemevsc
+[2022-04-08 01:27:42.129] [sharedprocess] [info] Getting Manifest... esbenp.prettier-vscode
+[2022-04-08 01:27:42.418] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2022-04-08 01:28:17.419] [sharedprocess] [info] Getting Manifest... theo-coder.the-best-theme
+[2022-04-08 01:28:17.776] [sharedprocess] [info] Installing extension: theo-coder.the-best-theme
+[2022-04-08 01:28:20.937] [sharedprocess] [info] Downloaded extension: theo-coder.the-best-theme /home/dark/.config/Code - OSS/CachedExtensionVSIXs/theo-coder.the-best-theme-2.1.3
+[2022-04-08 01:28:20.979] [sharedprocess] [info] Extracted extension to /home/dark/.vscode-oss/extensions/.8abef82e-8d82-467d-b347-13ed5bdc0126: theo-coder.the-best-theme
+[2022-04-08 01:28:20.985] [sharedprocess] [info] Renamed to /home/dark/.vscode-oss/extensions/theo-coder.the-best-theme-2.1.3
+[2022-04-08 01:28:20.986] [sharedprocess] [info] Extracting completed. theo-coder.the-best-theme
+[2022-04-08 01:28:20.987] [sharedprocess] [info] Extension installed successfully: theo-coder.the-best-theme
+[2022-04-08 01:28:22.203] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /home/dark/.config/Code - OSS/CachedExtensionVSIXs/esbenp.prettier-vscode-9.5.0
+[2022-04-08 01:28:22.482] [sharedprocess] [info] Extracted extension to /home/dark/.vscode-oss/extensions/.0d143ab1-dd0e-4c19-bf28-9bf2e082abc9: esbenp.prettier-vscode
+[2022-04-08 01:28:22.488] [sharedprocess] [info] Renamed to /home/dark/.vscode-oss/extensions/esbenp.prettier-vscode-9.5.0
+[2022-04-08 01:28:22.489] [sharedprocess] [info] Extracting completed. esbenp.prettier-vscode
+[2022-04-08 01:28:22.490] [sharedprocess] [info] Extension installed successfully: esbenp.prettier-vscode

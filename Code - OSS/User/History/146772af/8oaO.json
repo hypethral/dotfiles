@@ -1,0 +1,17 @@
+{
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 18,
+    "editor.codeLensFontSize": 18,
+    "window.zoomLevel": 1,
+    "telemetry.telemetryLevel": "off",
+    "workbench.preferredDarkColorTheme": "One Dark Pro",
+    "workbench.colorCustomizations": {
+        "[One Dark Pro]":  {
+          }
+    },
+    "editor.codeLensFontFamily": "Hack",
+    "oneDarkPro.bold": true,
+    "oneDarkPro.vivid": true,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "material-icon-theme",
+}
