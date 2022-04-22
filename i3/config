@@ -34,7 +34,7 @@ client.background       #ffffff
 
 # Auto-Start
 exec_always --no-startup-id picom &
-exec_always --no-startup-id feh --bg-fill  /home/dark/my\ files/Pictures/new\ wallpapers/wallhaven-13x79v.jpg &
+exec_always --no-startup-id feh --bg-fill  /home/dark/my\ files/Pictures/new\ wallpapers/wallhaven-28xey9.png &
 # peripherals
 #exec --no-startup-id xinput set-prop "ELAN0504:00 04F3:3091 Touchpad" 371 1
 exec --no-startup-id brightnessctl set 16000
