@@ -34,7 +34,7 @@ client.background       #ffffff
 
 # Auto-Start
 exec_always --no-startup-id picom &
-exec_always --no-startup-id feh --bg-fill  /home/dark/my\ files/Pictures/new\ wallpapers/wallhaven-28xey9.png &
+exec_always --no-startup-id feh --bg-fill  /home/dark/my\ files/Pictures/new\ wallpapers/wallhaven-rd7k1j.jpg &
 # peripherals
 #exec --no-startup-id xinput set-prop "ELAN0504:00 04F3:3091 Touchpad" 371 1
 exec --no-startup-id brightnessctl set 16000
@@ -67,7 +67,7 @@ font pango:JetBrains Mono bold 13
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
-# exec --no-startup-id blueman-applet
+exec --no-startup-id blueman-applet
 # Use pactl to adjust volume in PulseAudio.
 
 set $refresh_i3status pkill -RTMIN+10 -F /tmp/i3blocks.pid
