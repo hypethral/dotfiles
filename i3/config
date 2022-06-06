@@ -16,7 +16,7 @@ for_window [title="Volume Control"] floating enable, resize set 800px 500px
 for_window [instance="kitty_float"] floating enable, resize set 700px 360px
 
 gaps inner 16
-gaps outer 0
+gaps outer -6
 
 # color
 
