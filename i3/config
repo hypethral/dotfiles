@@ -11,12 +11,12 @@
 
 set $mod Mod4
 
-# i3 wm behavior
+# i3-gaps Window Manager Behavior
 for_window [title="Volume Control"] floating enable, resize set 800px 500px
 for_window [instance="kitty_float"] floating enable, resize set 700px 360px
 
 gaps inner 16
-gaps outer -2
+gaps outer 0
 
 # color
 
@@ -29,22 +29,25 @@ client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 client.background       #ffffff
 
-# Auto-Start
+# EXEC - Start-Up
 exec_always --no-startup-id picom &
 exec_always --no-startup-id nitrogen --restore &
-#exec_always --no-startup-id feh --bg-fill  ~/my\ files/Pictures/wallpapers/ &
-# peripherals
-#exec --no-startup-id xinput set-prop "ELAN0504:00 04F3:3091 Touchpad" 371 1
 exec --no-startup-id brightnessctl set 16000
 exec --no-startup-id xrandr --output eDP-1 --set "Broadcast RGB" "Full" --mode 1920x1080 --rate 144.00
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh & pid=$!; echo $pid >/tmp/polybar.pid; wait $pid
 
-# my binds
+# My Binds
 bindsym Shift+Return exec --no-startup-id kitty --name kitty_float
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +4%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -4%
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +2%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 2%-
+bindsym F9 exec --no-startup-id brightnessctl set 2%-
+bindsym F10  exec --no-startup-id brightnessctl set +2%
 
 
-# Font for window titles. Will also be used by the bar unless a different font
-# is used in the bar {} block below.
 font pango:JetBrains Mono bold 14
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
@@ -67,19 +70,6 @@ font pango:JetBrains Mono bold 14
 # exec --no-startup-id blueman-applet
 # Use pactl to adjust volume in PulseAudio.
 
-#set $refresh_i3status pkill -RTMIN+10 i3blocks
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +4%
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -4%
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
-bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +2%
-bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 2%-
-
-bindsym F9 exec --no-startup-id brightnessctl set 2%-
-bindsym F10  exec --no-startup-id brightnessctl set +2%
-
-
-
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -89,12 +79,10 @@ bindsym $mod+Return exec kitty
 # kill focused window
 bindsym $mod+c kill
 
-# start dmenu (a program launcher)
+# start rofi (a program launcher)
 bindsym $mod+d exec --no-startup-id "rofi -combi-modi drun,window -theme ~/.config/rofi/theme.rasi -show combi"
 
 
-# A more modern dmenu replacement is rofi:
-# bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
@@ -220,23 +208,5 @@ mode "resize" {
         bindsym Escape mode "default"
         bindsym $mod+r mode "default"
 }
-
 bindsym $mod+r mode "resize"
 
-
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-
-#bar {
-#	i3bar_command i3bar --transparency
-#        status_command "i3blocks -c ~/.config/i3/i3blocks.conf & pid=$!; echo $pid >/tmp/i3blocks.pid; wait $pid"
-#	position top
-#	height 24
-#	workspace_min_width 8
-#	strip_workspace_numbers yes
-#	workspace_buttons no
-#	colors {
-#     	statusline #ffffff
-#	background #00000000
-#	}	
-#}
