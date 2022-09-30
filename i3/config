@@ -49,7 +49,7 @@ bindsym F9 exec --no-startup-id brightnessctl set 2%-
 bindsym F10  exec --no-startup-id brightnessctl set +2%
 
 
-font pango:JetBrains Mono bold 14
+font pango:JetBrains Mono NL Bold 13
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
