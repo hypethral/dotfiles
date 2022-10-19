@@ -1,0 +1,25 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-18-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/dark/.vscode-oss/extensions/redhat.java-1.11.0-universal/lombok/lombok-1.18.24.jar -jar /home/dark/.vscode-oss/extensions/redhat.java-1.11.0-universal/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/dark/.config/Code - OSS/User/globalStorage/redhat.java/1.11.0/config_ss_linux -data /home/dark/.config/Code - OSS/User/workspaceStorage/0f8cde2dc337bac49ede6152757f1587/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2022-10-18 02:08:43.374'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-18-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/dark/.vscode-oss/extensions/redhat.java-1.11.0-universal/lombok/lombok-1.18.24.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/dark/.config/Code - OSS/User/workspaceStorage/0f8cde2dc337bac49ede6152757f1587/redhat.java -jar /home/dark/.vscode-oss/extensions/redhat.java-1.11.0-universal/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/dark/.config/Code - OSS/User/globalStorage/redhat.java/1.11.0/config_linux -data /home/dark/.config/Code - OSS/User/workspaceStorage/0f8cde2dc337bac49ede6152757f1587/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2022-10-18 02:08:43.626'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2022-10-18 02:08:43.747'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2022-10-18 02:08:43.750'
+}
+{
+  message: '[Error - 2:08:49 AM] Connection to server got closed. Server will not be restarted.',
+  level: 'info',
+  timestamp: '2022-10-18 02:08:49.917'
+}

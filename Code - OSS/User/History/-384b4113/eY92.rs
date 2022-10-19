@@ -1,0 +1,12 @@
+mod ex1;
+
+pub fn main() {
+    excerise_one();
+    // thread::spawn(|| {
+    //     loop {
+    //         println!("this is a spawn!!");
+    //         thread::sleep(Duration::from_millis(1));  
+    //     }
+    // });
+    // println!("Hello from the main thread!");
+}
