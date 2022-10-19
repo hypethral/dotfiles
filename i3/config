@@ -30,7 +30,7 @@ client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 client.background       #ffffff
 
 # EXEC - Start-Up
-exec_always --no-startup-id picom &
+exec_always --no-startup-id picom --experimental-backends &
 exec_always --no-startup-id nitrogen --restore &
 exec --no-startup-id brightnessctl set 16000
 exec --no-startup-id xrandr --output eDP-1 --set "Broadcast RGB" "Full" --mode 1920x1080 --rate 144.00
@@ -49,7 +49,7 @@ bindsym F9 exec --no-startup-id brightnessctl set 2%-
 bindsym F10  exec --no-startup-id brightnessctl set +2%
 
 
-font pango:JetBrains Mono NL Bold 13
+font pango:JetBrains Mono NL Bold 14
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -123,7 +123,7 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+bindsym $mod+t layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
