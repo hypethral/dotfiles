@@ -1,3 +1,0 @@
-class Worker implements Runnable{
-    
-}

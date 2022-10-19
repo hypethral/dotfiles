@@ -1,3 +1,0 @@
-public Customer implements Runnable {
-    
-}

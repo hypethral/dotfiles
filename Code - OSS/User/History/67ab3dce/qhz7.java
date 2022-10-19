@@ -1,3 +1,0 @@
-class Baker implements Runnable {
-    
-}
