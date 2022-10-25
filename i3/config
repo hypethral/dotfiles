@@ -30,7 +30,7 @@ client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 client.background       #ffffff
 
 # EXEC - Start-Up
-exec_always --no-startup-id picom --experimental-backends &
+exec_always --no-startup-id picom &
 exec_always --no-startup-id nitrogen --restore &
 exec --no-startup-id brightnessctl set 16000
 exec --no-startup-id xrandr --output eDP-1 --set "Broadcast RGB" "Full" --mode 1920x1080 --rate 144.00
