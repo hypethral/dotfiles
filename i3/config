@@ -15,13 +15,15 @@ set $mod Mod4
 for_window [title="Volume Control"] floating enable, resize set 800px 500px
 for_window [instance="kitty_float"] floating enable, resize set 700px 360px
 
+# for_window [class="^.*"] border pixel 0
+
 gaps inner 16
 gaps outer 0
 
 # color
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #073ded #6742d6 #ffffff #073ded  #073ded
+client.focused          #073ded #6742d6  #ffffff #073ded  #073ded
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
 client.unfocused        #333333 #5f676a #888888 #292d2e   #5f676a
 client.urgent           #e0cc4a #900000 #ffffff #e0cc4a   #e0cc4a
@@ -45,8 +47,8 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +2%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 2%-
-bindsym F9 exec --no-startup-id brightnessctl set 2%-
-bindsym F10  exec --no-startup-id brightnessctl set +2%
+bindsym F9 exec --no-startup-id brightnessctl set 20%-
+bindsym F10  exec --no-startup-id brightnessctl set +20%
 
 
 font pango:JetBrains Mono NL Bold 14
