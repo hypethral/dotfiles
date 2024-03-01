@@ -20,7 +20,7 @@
             "7": "VII",
             "8": "IIX",
             "9": "IX",
-	    "0": "X"
+	    "10": "X"
         }
     },
     "hyprland/mode": {
@@ -64,7 +64,8 @@
         "format": " {volume}%",
         "format-muted": "muted",
         "scroll-step": 1,
-        "on-click": "pavucontrol"
+        "on-click-right": "pavucontrol",
+	"on-click": "amixer set Master toggle"
    },
   "backlight": {
   	"device": "intel_backlight",
