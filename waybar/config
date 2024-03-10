@@ -66,7 +66,7 @@
         "format-muted": "muted",
         "scroll-step": 5,
         "on-click-right": "pavucontrol",
-	"on-click": "amixer set Master toggle"
+	"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
    },
   "backlight": {
   	"device": "intel_backlight",
