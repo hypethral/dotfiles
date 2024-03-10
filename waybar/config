@@ -1,11 +1,12 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar at the bottom of your screen
-    "height": 29, // Waybar height
+    "height": 42, // Waybar height
     // "width": 1366, // Waybar width
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces","hyprland/window"],
-    "modules-right": ["backlight", "pulseaudio", "custom/cpu", "network", "custom/gpuState", "battery", "custom/clocky", "tray"],
+    "modules-left": ["hyprland/workspaces", "network", "custom/gpuState"],
+    "modules-center":["hyprland/window"],
+    "modules-right": ["backlight", "pulseaudio", "custom/cpu", "battery","custom/clocky", "tray"],
     "hyprland/workspaces": {
         //"disable-scroll": false,
 	 "enable-bar-scroll": true,
@@ -38,12 +39,12 @@
     },
     "custom/gpuState": {
         "format": "{}",
-	"interval": 2,
+	"interval": 6,
         "exec": "~/.scripts/gpuState"
     },
     "custom/cpu": {
         "format": "{}",
-	"interval": 1,
+	"interval": 2,
 	"exec": "~/.scripts/temperature"
     },
     "battery": {
