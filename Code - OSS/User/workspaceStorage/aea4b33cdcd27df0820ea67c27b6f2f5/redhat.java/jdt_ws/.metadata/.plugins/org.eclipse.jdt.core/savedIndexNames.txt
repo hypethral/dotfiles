@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+/home/dark/.config/Code - OSS/User/workspaceStorage/aea4b33cdcd27df0820ea67c27b6f2f5/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
-3842426239.index
-1865797976.index
-3156499448.index

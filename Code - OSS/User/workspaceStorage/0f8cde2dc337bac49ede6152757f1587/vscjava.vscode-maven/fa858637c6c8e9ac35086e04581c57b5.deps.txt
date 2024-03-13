@@ -1,3 +1,0 @@
-rabbitmq:rabbitmq:1:compile
-\- com.rabbitmq:amqp-client:5.16.0:compile
-   \- org.slf4j:slf4j-api:1.7.36:compile
