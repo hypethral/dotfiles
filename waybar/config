@@ -44,7 +44,7 @@
     },
     "custom/cpu": {
         "format": "{}",
-	"interval": 2,
+	"interval": 4,
 	"exec": "~/.scripts/temperature"
     },
     "battery": {
@@ -60,7 +60,7 @@
 	"interface": "wlp0s20f3",
 	"format-wifi": " {bandwidthDownBytes} {bandwidthUpBytes}",        
 	"format-disconnected": "Disconnected ⚠",
-	"interval": 1
+	"interval": 2
     },
     "pulseaudio": {
         "format": " {volume}%",
@@ -73,6 +73,6 @@
   	"device": "intel_backlight",
   	"format": "{icon} {percent}%",
   	"format-icons": [""]
-  }
+ }
 
 }
