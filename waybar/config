@@ -51,7 +51,7 @@
         "bat": "BAT0",
         "states": {
             "warning": 30,
-            "critical": 15
+            "critical": 20
         },
         "format": "{icon} {capacity}%",
         "format-icons": ["", "", "", "", ""]
@@ -65,8 +65,8 @@
     "pulseaudio": {
         "format": " {volume}%",
         "format-muted": "muted",
-        "scroll-step": 5,
-        "on-click-right": "pavucontrol",
+        "scroll-step": 2,
+        "on-click-right": "kitty ncpamixer",
 	"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
    },
   "backlight": {
