@@ -66,7 +66,7 @@
         "format": " {volume}%",
         "format-muted": "muted",
         "scroll-step": 2,
-        "on-click-right": "kitty ncpamixer",
+        "on-click-right": "pavucontrol",
 	"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
    },
   "backlight": {
