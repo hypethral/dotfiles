@@ -49,6 +49,7 @@
     },
     "battery": {
         "bat": "BAT0",
+        "interval": 60,
         "states": {
             "warning": 30,
             "critical": 20
@@ -66,11 +67,13 @@
         "format": " {volume}%",
         "format-muted": "muted",
         "scroll-step": 2,
+        "interval": 20,
         "on-click-right": "pavucontrol",
 	"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
    },
   "backlight": {
   	"device": "intel_backlight",
+        "interval": 10,
   	"format": "{icon} {percent}%",
   	"format-icons": [""]
  }
