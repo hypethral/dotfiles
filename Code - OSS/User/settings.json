@@ -1,0 +1,33 @@
+{
+    "workbench.colorTheme": "The Best Theme",
+    "editor.fontFamily": "'JetBrains Mono Semibold', 'Fira code'",
+    "terminal.integrated.fontFamily": "'Hack'",
+    "bracket-pair-colorizer-2.colors": ["Gold","Orchid","LightSkyBlue","Red","Yellow","Orange","Indigo","Violet"],
+    "window.zoomLevel": 1,
+    "redhat.telemetry.enabled": false,
+    "explorer.confirmDelete": false,
+    "workbench.editorAssociations": {
+        "{git,gitlens}:/**/*.{md,csv,svg}": "default"
+    }
+    //,"[rust]": {"editor.defaultFormatter": "matklad.rust-analyzer"}
+    // ,"rust-analyzer.linkedProjects": [
+    //     "/home/dark/University/Semester 5/Programming/Real Time System/Rust/new_project/Cargo.toml"
+    // ]
+
+    // ,"java.configuration.runtimes": [
+    //   {
+    //     "name": "JavaSE-1.8",
+    //     "path": "/usr/lib/jvm/java-8-openjdk",
+    //   },
+    //   {
+    //     "name": "JavaSE-11",
+    //     "path": "/usr/lib/jvm/java-11-openjdk",
+    //   },
+    //   {
+    //     "name": "JavaSE-18",
+    //     "path": "/usr/lib/jvm/java-18-openjdk",
+    //     "default": true
+    //   },
+    // ]
+    // ! To make jupyter notebook Work add "enable-proposed-api": ["ms-toolsai.jupyter"] to argv.json  
+}

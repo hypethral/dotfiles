@@ -1,0 +1,81 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar at the bottom of your screen
+    "height": 42, // Waybar height
+    // "width": 1366, // Waybar width
+    // Choose the order of the modules
+    "modules-left": ["hyprland/workspaces", "network", "custom/gpuState"],
+    "modules-center":["hyprland/window"],
+    "modules-right": ["backlight", "pulseaudio", "custom/cpu", "battery","custom/clocky", "tray"],
+    "hyprland/workspaces": {
+        //"disable-scroll": false,
+	 "enable-bar-scroll": true,
+        // "all-outputs": false,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "I",
+            "2": "II",
+            "3": "III",
+            "4": "IV",
+            "5": "V",
+            "6": "VI",
+            "7": "VII",
+            "8": "IIX",
+            "9": "IX",
+	    "10": "X"
+        }
+    },
+    "hyprland/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+   "custom/clocky": {
+	"format": "{}",
+	"interval": 60,
+  	"exec": "~/.scripts/datey",       
+    },
+    "custom/gpuState": {
+        "format": "{}",
+	"interval": 6,
+        "exec": "~/.scripts/gpuState"
+    },
+    "custom/cpu": {
+        "format": "{}",
+	"interval": 8,
+	"exec": "~/.scripts/temperature"
+    },
+    "battery": {
+        "bat": "BAT0",
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 20
+        },
+        "format": "{icon} {capacity}%",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "network": {
+	"interface": "wlp0s20f3",
+	"format-wifi": " {bandwidthDownBytes} {bandwidthUpBytes}",        
+	"format-disconnected": "Disconnected ⚠",
+	"interval": 4
+    },
+    "pulseaudio": {
+        "format": " {volume}%",
+        "format-muted": "muted",
+        "scroll-step": 2,
+        "interval": 20,
+        "on-click-right": "pavucontrol",
+	"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+   },
+  "backlight": {
+  	"device": "intel_backlight",
+        "interval": 20,
+  	"format": "{icon} {percent}%",
+  	"format-icons": [""]
+ }
+
+}
