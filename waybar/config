@@ -6,7 +6,7 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "network", "custom/gpuState"],
     "modules-center":["hyprland/window"],
-    "modules-right": ["backlight", "pulseaudio", "custom/cpu", "battery","custom/clocky", "tray"],
+    "modules-right": ["custom/vrr","backlight", "pulseaudio", "custom/cpu", "battery","custom/clocky", "tray"],
     "hyprland/workspaces": {
         //"disable-scroll": false,
 	 "enable-bar-scroll": true,
@@ -42,10 +42,15 @@
 	"interval": 6,
         "exec": "~/.scripts/gpuState"
     },
-    "custom/cpu": {
+     "custom/cpu": {
         "format": "{}",
 	"interval": 8,
 	"exec": "~/.scripts/temperature"
+    },   
+      "custom/vrr": {
+        "format": "{}",
+	"interval": 8,
+	"exec": "~/.scripts/vrr_status"
     },
     "battery": {
         "bat": "BAT0",

@@ -51,6 +51,7 @@ tooltip {
 #backlight,
 #pulseaudio,
 #custom-cpu,
+#custom-vrr,
 #battery,
 #tray,
 #custom-clocky,
@@ -106,6 +107,10 @@ tooltip {
     margin-left: 5px;
 }
 
+#custom-vrr {
+    color: #a6e3a1;
+    margin-left: 5px; 
+}
 
 #pulseaudio {
   color: #89b4fa;
