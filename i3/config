@@ -18,7 +18,7 @@ for_window [instance="kitty_float"] floating enable, resize set 700px 360px
 # for_window [class="^.*"] border pixel 0
 default_border pixel 0
 default_floating_border pixel 0
-gaps inner 16
+gaps inner 8
 gaps outer 0
 
 # color
@@ -34,9 +34,6 @@ client.background       #ffffff
 
 # EXEC - Start-Up
 #exec_always mpv --wid=0 nfsmw.webm
-exec_always --no-startup-id picom &
-exec_always --no-startup-id nitrogen --restore &
-exec --no-startup-id xrandr --output eDP-1 --set "Broadcast RGB" "Full" --mode 1920x1080 --rate 144.00
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh & pid=$!; echo $pid >/tmp/polybar.pid; wait $pid
 # exec --no-startup-id ~/.scripts/./btoff
 exec --no-startup-id brightnessctl set 29000
