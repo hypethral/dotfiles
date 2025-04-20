@@ -8,7 +8,20 @@
     "explorer.confirmDelete": false,
     "workbench.editorAssociations": {
         "{git,gitlens}:/**/*.{md,csv,svg}": "default"
-    }
+    },
+    "colorize.include": [
+        
+        "**/*.css",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.less",
+        "**/*.styl",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.js",
+        "**/*.jsx",
+        "**/*"
+    ]
     //,"[rust]": {"editor.defaultFormatter": "matklad.rust-analyzer"}
     // ,"rust-analyzer.linkedProjects": [
     //     "/home/dark/University/Semester 5/Programming/Real Time System/Rust/new_project/Cargo.toml"
