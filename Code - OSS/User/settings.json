@@ -21,7 +21,8 @@
         "**/*.js",
         "**/*.jsx",
         "**/*"
-    ]
+    ],
+    "workbench.iconTheme": "material-icon-theme"
     //,"[rust]": {"editor.defaultFormatter": "matklad.rust-analyzer"}
     // ,"rust-analyzer.linkedProjects": [
     //     "/home/dark/University/Semester 5/Programming/Real Time System/Rust/new_project/Cargo.toml"
