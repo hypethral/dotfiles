@@ -44,7 +44,7 @@ client.background       #ffffff
 exec --no-startup-id $HOME/.config/polybar/launch.sh & pid=$!; echo $pid >/tmp/polybar.pid; wait $pid
 # exec --no-startup-id ~/.scripts/./btoff
 exec --no-startup-id brightnessctl set 29000
-#exec_always --nostartup-id ~/.local/bin/nvibrant 140
+
 # My Binds
 bindsym Shift+Return exec --no-startup-id kitty --name kitty_float
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +4%
@@ -55,7 +55,8 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +2%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 2%-
 bindsym F9 exec --no-startup-id brightnessctl set 20%-
 bindsym F10  exec --no-startup-id brightnessctl set +20%
-
+bindsym $mod+q exec --no-startup-id systemctl hibernate
+bindsym F4 exec --no-startup-id systemctl hibernate
 
 font pango:JetBrains Mono NL Bold 14
 
